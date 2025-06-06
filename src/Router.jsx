@@ -1,0 +1,27 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import HomeComponent from "./Home"
+import MotorComponent from "./Pages/Motor"
+import CaravanComponent from "./Pages/Caravan"
+import TuningComponent from "./Pages/Tuning"
+import UsedCarComponent from "./Pages/UsedCar"
+import CampingPlaceComponent from "./Pages/CampingPlace"
+
+
+function Router() {
+  
+
+  return (
+    <BrowserRouter>
+     <Routes>
+      <Route path="/" element={<HomeComponent/>}/>
+      <Route path="/motor" element={<MotorComponent/>}/>
+      <Route path="/caravan" element={<CaravanComponent/>}/>
+      <Route path="/tuning" element={<TuningComponent/>}/>
+      <Route path="/usedcar" element={<UsedCarComponent/>}/>
+      <Route path="/campingplace" element={<CampingPlaceComponent/>}/>
+     </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default Router
