@@ -105,7 +105,7 @@ const MultiCaruselComponent = () => {
     <div className="card">
       <Carousel
         value={products}
-        numVisible={4}
+        numVisible={3}
         numScroll={3}
         responsiveOptions={responsiveOptions}
         className="custom-carousel"

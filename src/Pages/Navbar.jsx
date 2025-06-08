@@ -23,7 +23,9 @@ const Navbarcomponent = () => {
       <NavbarMain>
         <NavLeft>
           <LeftBurgerButton src={BurgerImg} alt="" />
-          <img src={LogoImg} alt="Logo" />
+          <Link className="NavLink" to={'/'}>
+            <img src={LogoImg} alt="Logo" />
+          </Link>
         </NavLeft>
         <NavMid>
           <NavMidComp>
