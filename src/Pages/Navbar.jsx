@@ -15,6 +15,7 @@ import {
   NavRightEng,
   RightBurgerImg,
 } from "../Styles/Navbar";
+import { Link } from "react-router-dom";
 
 const Navbarcomponent = () => {
   return (
@@ -26,23 +27,33 @@ const Navbarcomponent = () => {
         </NavLeft>
         <NavMid>
           <NavMidComp>
-            <p>Motor</p>
+             <Link className="NavLink" to={'/motor'}>
+               <p>Motor</p>
+             </Link>
+              <img src={DownArrow} alt="" />
+          </NavMidComp>
+          <NavMidComp>
+            <Link className="NavLink" to={'/caravan'}>
+              <p>Caravan</p>
+            </Link>
             <img src={DownArrow} alt="" />
           </NavMidComp>
           <NavMidComp>
-            <p>Caravan</p>
+            <Link className="NavLink" to={'/tuning'}>
+              <p>Tuning</p>
+            </Link>
             <img src={DownArrow} alt="" />
           </NavMidComp>
           <NavMidComp>
-            <p>Tuning</p>
+            <Link className="NavLink" to={'/usedcar'}>
+              <p>Used Car</p>
+            </Link>
             <img src={DownArrow} alt="" />
           </NavMidComp>
           <NavMidComp>
-            <p>Used Car</p>
-            <img src={DownArrow} alt="" />
-          </NavMidComp>
-          <NavMidComp>
-            <p>Camping place</p>
+            <Link className="NavLink" to={'/campingplace'}>
+              <p>Camping place</p>
+            </Link>
           </NavMidComp>
         </NavMid>
         <NavRight>

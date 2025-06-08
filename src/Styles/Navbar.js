@@ -45,6 +45,7 @@ export const NavMid = styled.div`
     display: none;
   }
 `;
+
 export const NavMidComp = styled.div`
   display: flex;
   align-items: center;

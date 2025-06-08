@@ -2,8 +2,16 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Router from './Router'
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+
+import Popup from 'reactjs-popup';
+import 'reactjs-popup/dist/index.css';
+
+
 
 
 createRoot(document.getElementById('root')).render(

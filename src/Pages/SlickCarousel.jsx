@@ -11,6 +11,7 @@ const MainCarousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1500,
+    arrows: true,
   };
   return (
     <div className="slider-container">

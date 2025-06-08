@@ -1,8 +1,21 @@
 import React from 'react'
+import Navbarcomponent from './Navbar'
+import SectionComponent from './Section'
+import FooterComponent from '../Footer'
+import { UsedCarBgDiv, UsedCarBgh1, UsedCarBgh2, UsedCarBgh3 } from '../Styles/UsedCar'
 
 const UsedCarComponent = () => {
   return (
-    <div>UsedCarComponent</div>
+    <>
+    <Navbarcomponent/>
+    <UsedCarBgDiv>
+        <UsedCarBgh3>Home / Used Cars</UsedCarBgh3>
+        <UsedCarBgh2>Our ranges</UsedCarBgh2>
+        <UsedCarBgh1>Used Cars</UsedCarBgh1>
+    </UsedCarBgDiv>
+    <SectionComponent/>
+    <FooterComponent/>
+    </>
   )
 }
 
