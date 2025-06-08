@@ -1,7 +1,7 @@
 import React from 'react'
 import { RecommendDiv, RecommendH1, RecommendUnderline } from '../Styles/MultiCarousel'
 import { VideosChild, VideosChildLastTwo, VideosChildSecondLine, VideosMain } from '../Styles/videos'
-import PopUpCompOne from './Popup'
+import { PopUpCompFour, PopUpCompOne, PopUpCompThree, PopUpCompTwo } from './Popup'
 
 const VideosComponent = () => {
   return (
@@ -16,25 +16,25 @@ const VideosComponent = () => {
               <PopUpCompOne/>
             </VideosChild>
             <VideosChild>
-              <PopUpCompOne/>
+              <PopUpCompTwo/>
             </VideosChild>
             <VideosChild>
-              <PopUpCompOne/>
+              <PopUpCompThree/>
             </VideosChild>
             <VideosChild>
-              <PopUpCompOne/>
+              <PopUpCompFour/>
             </VideosChild>
             <VideosChildSecondLine>
               <PopUpCompOne/>
             </VideosChildSecondLine>
             <VideosChildSecondLine>
-              <PopUpCompOne/>
+              <PopUpCompTwo/>
             </VideosChildSecondLine>
             <VideosChildLastTwo>
-              <PopUpCompOne/>
+              <PopUpCompThree/>
             </VideosChildLastTwo>
             <VideosChildLastTwo>
-              <PopUpCompOne/>
+              <PopUpCompFour/>
             </VideosChildLastTwo>
         </VideosMain>
     </>
