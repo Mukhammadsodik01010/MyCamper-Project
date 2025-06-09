@@ -4,13 +4,13 @@ import { Tag } from "primereact/tag";
 import { ProductService } from "./service/ProductService";
 import ArrowDown from "../assets/down-arrow.svg"
 import {
-  ImageWrapper,
+  MultiArrowDiv,
+  MultiAsosiyDiv,
   MultiButton,
-  MultiDownArrowDiv,
-  MultiH4,
   MultiImg,
+  MultiImgMainDiv,
   MultiMainDiv,
-  MultiMainWrapper,
+  ProductNameDiv,
   RecommendDiv,
   RecommendH1,
   RecommendUnderline,
@@ -31,18 +31,18 @@ const MultiCaruselComponent = () => {
   const responsiveOptions = [
     {
       breakpoint: "1400px",
-      numVisible: 2,
-      numScroll: 1,
+      numVisible: 4,
+      numScroll: 4,
     },
     {
       breakpoint: "1199px",
       numVisible: 3,
-      numScroll: 1,
+      numScroll: 3,
     },
     {
       breakpoint: "767px",
       numVisible: 2,
-      numScroll: 1,
+      numScroll: 2,
     },
     {
       breakpoint: "575px",
@@ -75,29 +75,25 @@ const MultiCaruselComponent = () => {
 
   const productTemplate = (product) => {
     return (
-      <MultiMainDiv>
-        <MultiMainWrapper>
-          <ImageWrapper>
-            <MultiImg
-              src={product.image}
-              alt={product.name}
-              className="w-6 shadow-2"
-            />
-          </ImageWrapper>
-          <div>
-            <MultiH4>{product.name}</MultiH4>
-            <MultiButton>Discover the range</MultiButton>
-            <Tag
-              value={product.inventoryStatus}
-              severity={getSeverity(product)}
-            ></Tag>
-            <MultiDownArrowDiv>
-              <h3>Choose a model</h3>
-              <img src={ArrowDown} alt="" />
-            </MultiDownArrowDiv>
-          </div>
-        </MultiMainWrapper>
+     <MultiAsosiyDiv>
+       <MultiMainDiv>
+        <MultiImgMainDiv className="mb-3">
+          <MultiImg src={`${product.image}`} alt={product.name} />
+        </MultiImgMainDiv>
+        <ProductNameDiv>
+          <h4>{product.name}</h4>
+          <MultiButton>Discover the range</MultiButton>
+          <Tag
+            value={product.inventoryStatus}
+            severity={getSeverity(product)}
+          ></Tag>
+          <MultiArrowDiv>
+            <p>Choose a model</p>
+            <img src={ArrowDown} alt="" />
+          </MultiArrowDiv>
+        </ProductNameDiv>
       </MultiMainDiv>
+     </MultiAsosiyDiv>
     );
   };
 
@@ -105,8 +101,8 @@ const MultiCaruselComponent = () => {
     <div className="card">
       <Carousel
         value={products}
-        numVisible={3}
-        numScroll={3}
+        numVisible={4}
+        numScroll={4}
         responsiveOptions={responsiveOptions}
         className="custom-carousel"
         circular
@@ -116,5 +112,4 @@ const MultiCaruselComponent = () => {
     </div>
   );
 };
- 
 export default MultiCaruselComponent;
