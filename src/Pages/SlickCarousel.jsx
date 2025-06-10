@@ -1,29 +1,45 @@
-import React from "react";
+import React, { Component } from "react";
 import Slider from "react-slick";
-import { BgDivsOne, BgDivsThree, BgDivsTwo } from "../Styles/Carusel";
+import LeftArrowImg from '../assets/RightIcon.svg'
+import RightArrowImg from '../assets/LeftIcon.svg'
+import { BgDivsOne, BgDivsThree, BgDivsTwo, SlickArrow, SlickArrowLeft } from '../Styles/Carusel'
 
-const MainCarousel = () => {
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return (
+    <SlickArrow onClick={onClick}>
+      <img src={RightArrowImg} alt="" />
+    </SlickArrow>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <SlickArrowLeft onClick={onClick}>
+      <img src={LeftArrowImg} alt="" />
+    </SlickArrowLeft>
+  );
+}
+
+function MainCarousel() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    arrows: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
   return (
     <div className="slider-container">
       <Slider {...settings}>
         <BgDivsOne>
-          
+          {/* <h3>1</h3> */}
         </BgDivsOne>
         <BgDivsTwo>
-          
+          {/* <h3>2</h3> */}
         </BgDivsTwo>
         <BgDivsThree>
-          
+          {/* <h3>3</h3> */}
         </BgDivsThree>
       </Slider>
     </div>

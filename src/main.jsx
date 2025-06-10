@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 
-import Popup from 'reactjs-popup';
 import 'reactjs-popup/dist/index.css';
 
 
