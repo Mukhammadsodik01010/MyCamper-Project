@@ -26,6 +26,8 @@ function MainCarousel() {
   const settings = {
     dots: true,
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />
   };

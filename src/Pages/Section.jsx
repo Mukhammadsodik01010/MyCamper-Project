@@ -1,18 +1,16 @@
-
-// import ProductService from '../Pages/service/ProductService.jsx'
 import ArrowDown from "../assets/down-arrow.svg";
 import Compare1Img from "../assets/Compare1.svg";
 import Compare2Img from "../assets/Compare2.svg";
 import Compare3Img from "../assets/CarImg8.svg";
 import Menu1 from "../assets/MenuIcon.svg";
 import Menu2 from "../assets/MenuIcon2.svg";
-import BurgerImg from '../assets/burgerButton.svg'
-import Star from '../assets/StarImg.svg'
+import BurgerImg from "../assets/burgerButton.svg";
+import Star from "../assets/StarImg.svg";
 import {
-    BrandNameDiv,
-    CarName,
-    CarNameDiv,
-    ChildBgImg,
+  BrandNameDiv,
+  CarName,
+  CarNameDiv,
+  ChildBgImg,
   ComopareImg,
   CompareImgDiv,
   CompareImgWrapper,
@@ -51,7 +49,11 @@ import {
   TopSpan,
 } from "../Styles/Section";
 
+import { Mockdata } from "../MockData/mockdata";
+import { Link } from "react-router-dom";
+
 const SectionComponent = () => {
+  const products = Mockdata;
 
   return (
     <SectionMain>
@@ -193,10 +195,10 @@ const SectionComponent = () => {
           <SectionRightTopRightDiv>
             <SectionTopRigthBtn src={BurgerImg} alt="" />
             <Toph4>
-            Item <TopSpan>25.156</TopSpan>
-           </Toph4>
+              Item <TopSpan>25.156</TopSpan>
+            </Toph4>
           </SectionRightTopRightDiv>
-          
+
           <TopRightMain>
             <SortByDiv>
               <p>Sort by</p>
@@ -224,344 +226,46 @@ const SectionComponent = () => {
           </TopRightMain>
         </SectionRightTop>
         <SectionTopHiddenDiv>
-            <SortByDivHidden>
-              <p>Sort by</p>
-              <SelectDiv>
-                <p>Select</p>
-                <DownArrowDiv>
-                  <img src={ArrowDown} alt="" />
-                </DownArrowDiv>
-              </SelectDiv>
-            </SortByDivHidden>
-            <SixtyDivHidden>
-              <p>60</p>
+          <SortByDivHidden>
+            <p>Sort by</p>
+            <SelectDiv>
+              <p>Select</p>
               <DownArrowDiv>
                 <img src={ArrowDown} alt="" />
               </DownArrowDiv>
-            </SixtyDivHidden>
+            </SelectDiv>
+          </SortByDivHidden>
+          <SixtyDivHidden>
+            <p>60</p>
+            <DownArrowDiv>
+              <img src={ArrowDown} alt="" />
+            </DownArrowDiv>
+          </SixtyDivHidden>
         </SectionTopHiddenDiv>
         <hr />
         <SectionRightBottom>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
+          {products.map((product) => (
+            <Link className="NavLink" key={product.id} to={`/motor/${product.id}`}>
+              <SectionBottomChild >
+                <ChildBgImg>{/* bg image */}</ChildBgImg>
                 <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
+                  <CarName>{product.name}</CarName>
+                  <BrandNameDiv>
+                    <p>{product.brand}</p>
+                    <CarNameDiv>
+                      <img src={Star} alt="" />
+                      <p>{product.ranking}</p>
+                    </CarNameDiv>
+                  </BrandNameDiv>
+                  <Dollor>{product.cost} $</Dollor>
+                  <OrderBtnDiv>
+                    <OrderBtn>Order </OrderBtn>
+                    <OrderBtn>Compare</OrderBtn>
+                  </OrderBtnDiv>
                 </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
-            <SectionBottomChild>
-                <ChildBgImg>
-                    {/* bg image */}
-                </ChildBgImg>
-                <div>
-                    <CarName>Name of the car</CarName>
-                    <BrandNameDiv>
-                        <p>Brand name</p>
-                        <CarNameDiv>
-                            <img src={Star} alt="" />
-                            <p>5.3</p>
-                        </CarNameDiv>
-                    </BrandNameDiv>
-                    <Dollor>250 $</Dollor>
-                    <OrderBtnDiv>
-                        <OrderBtn>Order </OrderBtn>
-                        <OrderBtn>Compare</OrderBtn>
-                    </OrderBtnDiv>
-                </div>
-            </SectionBottomChild>
+              </SectionBottomChild>
+            </Link>
+          ))}
         </SectionRightBottom>
       </Sectionright>
     </SectionMain>

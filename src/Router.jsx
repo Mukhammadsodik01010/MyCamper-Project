@@ -5,6 +5,7 @@ import CaravanComponent from "./Pages/Caravan"
 import TuningComponent from "./Pages/Tuning"
 import UsedCarComponent from "./Pages/UsedCar"
 import CampingPlaceComponent from "./Pages/CampingPlace"
+import DetailedPage from "./Pages/DetailedPages/DetailedPage"
 
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/tuning" element={<TuningComponent/>}/>
       <Route path="/usedcar" element={<UsedCarComponent/>}/>
       <Route path="/campingplace" element={<CampingPlaceComponent/>}/>
+      <Route path="/motor/:id" element={<DetailedPage/>}/>
      </Routes>
     </BrowserRouter>
   )
