@@ -15,6 +15,7 @@ import {
   IdP,
   IRchild,
   NameBrandDiv,
+  NameBrandDiv2,
   Premium,
   Premiumh1,
   PremiumSpan,
@@ -50,7 +51,7 @@ const ItemReviewsComponent = () => {
                   <CarChildBrand>{car.brand}</CarChildBrand>
                   <Id>{car.brand}</Id>
                 </NameBrandDiv>
-                <NameBrandDiv>
+                <NameBrandDiv2>
                   <IdDiv>
                     <Id>Id:</Id>
                     <IdP>{car.id}</IdP>
@@ -63,7 +64,7 @@ const ItemReviewsComponent = () => {
                     <Id>Location:</Id>
                     <IdP>{car.location}</IdP>
                   </IdDiv>
-                </NameBrandDiv>
+                </NameBrandDiv2>
               </DataName>
             </ChildDataWrapper>
           </IRchild>

@@ -28,16 +28,19 @@ export const BestWrap = styled.div`
   padding-left: 10px;
   width: 177px;
   height: 35px;
-  flex-shrink: 0;
   border-radius: 5px;
   border: 1px solid rgba(55, 55, 55, 0.3);
-  background: #fff;
   color: var(--blue, #006dab);
   font-family: Montserrat;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 100%; /* 14px */
+  line-height: 100%;
+  @media only screen and (max-width: 480px) {
+    width: 150px;
+  }
+  @media only screen and (max-width: 480px) {
+    width: 120px;
+  }
 `;
 export const BestArrowWrap = styled.div`
   display: flex;
@@ -53,6 +56,10 @@ export const IRchild = styled.div`
   display: flex;
   gap: 50px;
   margin-top: 45px;
+  @media only screen and (max-width: 550px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 export const ChildImageWrapper = styled.div`
   display: flex;
@@ -62,22 +69,28 @@ export const ChildImageWrapper = styled.div`
   width: 100%;
   border: none;
   border-radius: 5px;
-  /* background-color: #fafafa; */
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   flex: 1;
   display: flex;
   justify-content: start;
   overflow: hidden;
+  padding: 10px;
   @media only screen and (max-width: 1000px) {
     flex: 2;
   }
   @media only screen and (max-width: 700px) {
     flex: 2.5;
   }
+  @media only screen and (max-width: 550px) {
+    flex: 0;
+  }
 `;
 export const ChildCarImg = styled.img`
   height: 100px;
   width: 100%;
+  @media only screen and (max-width: 550px) {
+   height: 200px;
+  }
 `;
 export const ChildDataWrapper = styled.div`
   flex: 6;
@@ -85,16 +98,32 @@ export const ChildDataWrapper = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   gap: 10px;
+  @media only screen and (max-width: 550px) { 
+    flex: 0;
+    width: 100%;
+  }
 `;
 export const DataName = styled.div`
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 550px) { 
+    flex-direction: column;
+    gap: 20px;
+  }
 `;
 export const NameBrandDiv =styled.div`
 display: flex;
 flex-direction: column;
 gap: 10px;
+`
+export const NameBrandDiv2 =styled.div`
+display: flex;
+flex-direction: column;
+gap: 10px;
+@media only screen and (max-width: 550px) { 
+    flex-direction: row;
+    justify-content: start;
+}
 `
 export const ChildCarName = styled.h2`
   color: var(--text, #373737);

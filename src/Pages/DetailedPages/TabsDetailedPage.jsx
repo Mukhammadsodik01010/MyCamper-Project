@@ -4,6 +4,11 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import ItemReviewsComponent from "./ItemReviews";
+import QuessionComponent from "./Quession";
+import FrequentQuestions from "./FrequentQuestions";
+import ContactComponent from "./Contact";
+
+
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -59,13 +64,13 @@ export default function BasicTabs() {
         <ItemReviewsComponent/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>
-        Item Two
+        <QuessionComponent/> 
       </CustomTabPanel>
       <CustomTabPanel value={value} index={2}>
-        Item Three
+        <FrequentQuestions/>
       </CustomTabPanel>
       <CustomTabPanel value={value} index={3}>
-        Item Four
+        <ContactComponent/>
       </CustomTabPanel>
     </Box>
   );
