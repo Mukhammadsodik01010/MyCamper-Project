@@ -22,6 +22,7 @@ export const DetailMainBg = styled.div`
 
 export const BasicTabsMainDiv = styled.div`
 padding: 0 70px;
+margin-top: 30px;
 @media only screen and (max-width: 1000px) {
     padding: 0 30px;
 }  

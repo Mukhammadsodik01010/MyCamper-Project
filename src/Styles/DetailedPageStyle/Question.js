@@ -141,7 +141,7 @@ align-items: center;
 justify-content: space-between;
 padding: 20px;
 width: 100%;
-height: 60px;
+height: 80px;
 border-radius: 10px;
 background: #FFF;
 box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
