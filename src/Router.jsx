@@ -6,6 +6,7 @@ import TuningComponent from "./Pages/Tuning"
 import UsedCarComponent from "./Pages/UsedCar"
 import CampingPlaceComponent from "./Pages/CampingPlace"
 import DetailedPage from "./Pages/DetailedPages/DetailedPage"
+import AccordionExpandIcon from "./Pages/acardion"
 
 
 function Router() {
@@ -21,6 +22,7 @@ function Router() {
       <Route path="/usedcar" element={<UsedCarComponent/>}/>
       <Route path="/campingplace" element={<CampingPlaceComponent/>}/>
       <Route path="/motor/:id" element={<DetailedPage/>}/>
+      <Route path="/acardion" element={<AccordionExpandIcon/>}/>
      </Routes>
     </BrowserRouter>
   )

@@ -4,9 +4,9 @@ import Compare2Img from "../assets/Compare2.svg";
 import Compare3Img from "../assets/CarImg8.svg";
 import Menu1 from "../assets/MenuIcon.svg";
 import Menu2 from "../assets/MenuIcon2.svg";
-import BurgerImg from "../assets/burgerButton.svg";
 import Star from "../assets/StarImg.svg";
 import {
+  AcardionDiv,
   BrandNameDiv,
   CarName,
   CarNameDiv,
@@ -19,19 +19,15 @@ import {
   DownArrowDiv,
   FromToInput,
   FromToMain,
-  InputCheckbox,
   Menu1Div,
   Menu2Div,
   MenuDiv,
   OrderBtn,
   OrderBtnDiv,
   SectionBottomChild,
-  SectionLedtINput,
   SectionLeft,
   SectionLeftBtn,
   SectionLeftChildh2,
-  SectionLeftChildInput,
-  SectionLeftChildTitle,
   SectionMain,
   Sectionright,
   SectionRightBottom,
@@ -51,6 +47,8 @@ import {
 
 import { Mockdata } from "../MockData/mockdata";
 import { Link } from "react-router-dom";
+import AccordionExpandIcon from "./acardion";
+import SectionDrower from "./SectionDrower";
 
 const SectionComponent = () => {
   const products = Mockdata;
@@ -72,107 +70,9 @@ const SectionComponent = () => {
             </div>
           </FromToMain>
         </div>
-        <div>
-          <SectionLeftChildTitle>
-            <SectionLeftChildh2>Brand</SectionLeftChildh2>
-            <img src={ArrowDown} alt="" />
-          </SectionLeftChildTitle>
-          <hr />
-          <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Aidal</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Knal</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">escape</label>
-            </SectionLedtINput>
-          </InputCheckbox>
-        </div>
-        <div>
-          <SectionLeftChildTitle>
-            <SectionLeftChildh2>Company</SectionLeftChildh2>
-            <img src={ArrowDown} alt="" />
-          </SectionLeftChildTitle>
-          <hr />
-          <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">escape</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Aidal</label>
-            </SectionLedtINput>
-          </InputCheckbox>
-        </div>
-        <div>
-          <SectionLeftChildTitle>
-            <SectionLeftChildh2>License type</SectionLeftChildh2>
-            <img src={ArrowDown} alt="" />
-          </SectionLeftChildTitle>
-          <hr />
-          <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">1 year</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">2 year</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">1.5 year</label>
-            </SectionLedtINput>
-          </InputCheckbox>
-        </div>
-        <div>
-          <SectionLeftChildTitle>
-            <SectionLeftChildh2>Number of travelers</SectionLeftChildh2>
-            <img src={ArrowDown} alt="" />
-          </SectionLeftChildTitle>
-          <hr />
-          <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">2</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">3-4</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">5+</label>
-            </SectionLedtINput>
-          </InputCheckbox>
-        </div>
-        <div>
-          <SectionLeftChildTitle>
-            <SectionLeftChildh2>Location</SectionLeftChildh2>
-            <img src={ArrowDown} alt="" />
-          </SectionLeftChildTitle>
-          <hr />
-          <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Seoul</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Korea</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Pusan</label>
-            </SectionLedtINput>
-          </InputCheckbox>
-        </div>
+        <AcardionDiv>
+          <AccordionExpandIcon/>
+        </AcardionDiv>
         <FromToMain>
           <SectionLeftBtn>Cancel</SectionLeftBtn>
           <SectionLeftBtn $second>Search</SectionLeftBtn>
@@ -193,7 +93,9 @@ const SectionComponent = () => {
       <Sectionright>
         <SectionRightTop>
           <SectionRightTopRightDiv>
-            <SectionTopRigthBtn src={BurgerImg} alt="" />
+            <SectionTopRigthBtn>
+              <SectionDrower/>
+            </SectionTopRigthBtn>
             <Toph4>
               Item <TopSpan>25.156</TopSpan>
             </Toph4>

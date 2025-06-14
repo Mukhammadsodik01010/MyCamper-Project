@@ -5,7 +5,7 @@ display: flex;
 justify-content: space-between;
 padding: 100px 70px;
 background: var(--blue, #006DAB);  
-margin-top: 70px;
+margin-top: 20px;
 @media only screen and (max-width: 900px) {
     padding: 70px 40px;
 } 

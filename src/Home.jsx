@@ -4,7 +4,7 @@ import MainCarousel from './Pages/SlickCarousel'
 import MultiCaruselComponent, { RecommendComp } from './Pages/MultiCarusel'
 import VideosComponent from './Pages/Videos'
 import BlogsComponent from './Pages/Blogs'
-import FooterComponent from './Footer'
+import FooterComponent from './Footer'  
 
 const HomeComponent = () => {
   return (

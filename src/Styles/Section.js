@@ -36,7 +36,7 @@ export const SectionLeftChildh2 = styled.h2`
   font-style: normal;
   font-weight: 600;
   line-height: 100%; /* 18px */
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 `;
 export const FromToMain = styled.div`
   display: flex;
@@ -59,6 +59,11 @@ export const FromToInput = styled.input`
   color: #37373799;
   margin-top: 5px;
 `;
+
+export const AcardionDiv = styled.div`
+margin-top: 50px;
+`
+
 export const InputCheckbox = styled.div`
   display: flex;
   flex-direction: column;
@@ -153,7 +158,7 @@ display: flex;
 align-items: center;
 gap: 10px;
 `
-export const SectionTopRigthBtn = styled.img`
+export const SectionTopRigthBtn = styled.div`
 display: none;
 @media only screen and (max-width: 1520px) {
     display: flex;
@@ -414,4 +419,9 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+`
+
+export const SectionDrowerDiv = styled.div`
+margin-top: 20px;
+padding: 20px;
 `

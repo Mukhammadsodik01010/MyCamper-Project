@@ -3,8 +3,10 @@ import styled from "styled-components";
 export const QuestionsMainDiv = styled.div`
   display: flex;
   gap: 40px;
+  height: 600px;
   @media only screen and (max-width: 900px) {
     flex-direction: column;
+    height: auto;
   }
 `;
 export const QuestionsDiv = styled.div`
@@ -48,10 +50,11 @@ export const QuestionInputsDiv = styled.div`
 `;
 export const InputsWrapper = styled.div`
   width: 100%;
-  height: 500px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 20px;
   border-radius: 10px;
   border: 1px solid rgba(0, 109, 171, 0.1);
   background: #fff;
@@ -160,6 +163,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 gap: 20px;
+margin-top: 25px;
 @media only screen and (max-width: 500px) {
   flex-direction: column;
   gap: 20px;
@@ -172,7 +176,7 @@ flex-direction: column;
 gap: 10px;
 padding: 20px;
 margin-top: 20px;
-height: 120px;
+height: 150px;
 width: 100%;
 border-radius: 8px;
 background: #FFF;

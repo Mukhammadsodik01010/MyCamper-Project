@@ -3,7 +3,6 @@ import LogoImg from "../assets/Camper.svg";
 import DownArrow from "../assets/down-arrow.svg";
 import CartImg from "../assets/cart.svg";
 import UserImg from "../assets/user.svg";
-import BurgerImg from "../assets/burgerButton.svg";
 import {
   HiddenImg,
   LeftBurgerButton,
@@ -16,13 +15,18 @@ import {
   RightBurgerImg,
 } from "../Styles/Navbar";
 import { Link } from "react-router-dom";
+import TemporaryDrawer from "./DrowerLeft";
+import TemporaryDrawerRight from "./DrowerRight";
+
 
 const Navbarcomponent = () => {
   return (
     <>
       <NavbarMain>
         <NavLeft>
-          <LeftBurgerButton src={BurgerImg} alt="" />
+          <LeftBurgerButton>
+            <TemporaryDrawer/>
+          </LeftBurgerButton>
           <Link className="NavLink" to={'/'}>
             <img src={LogoImg} alt="Logo" />
           </Link>
@@ -65,10 +69,13 @@ const Navbarcomponent = () => {
             <p>Eng</p>
             <img src={DownArrow} alt="" />
           </NavRightEng>
-          <RightBurgerImg src={BurgerImg} alt="" />
+          <RightBurgerImg>
+            <TemporaryDrawerRight/>
+          </RightBurgerImg>
         </NavRight>
       </NavbarMain>
     </>
   );
 };
 export default Navbarcomponent;
+

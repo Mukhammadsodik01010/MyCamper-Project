@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+
+export const MainDiv = styled.div`
+height: 600px;
+@media only screen and (max-width: 900px) {
+    height: 800px;
+  }
+`
 export const Premium = styled.div`
   display: flex;
   align-items: center;
@@ -12,6 +19,7 @@ export const Premiumh1 = styled.h1`
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 30px;
 `;
 export const PremiumSpan = styled.span`
   color: var(--blue, #006dab);
@@ -52,10 +60,26 @@ export const BestArrowWrap = styled.div`
   border-radius: 0px 5px 5px 0px;
   border: 1px solid rgba(55, 55, 55, 0.3);
 `;
+
+export const ItemReviewScroll = styled.div`
+height: 500px;
+overflow-y: scroll;
+
+&::-webkit-scrollbar {
+    display: none;
+  }
+  
+scrollbar-width: none;
+@media only screen and (max-width: 900px) {
+    height: 700px;
+  }
+`
+
 export const IRchild = styled.div`
   display: flex;
   gap: 50px;
-  margin-top: 45px;
+  margin-top: 30px;
+  padding-bottom: 10px;
   @media only screen and (max-width: 550px) {
     flex-direction: column;
     align-items: center;
@@ -165,6 +189,4 @@ export const CarChildBrand = styled.h4`
   font-weight: 500;
   line-height: normal;
 `;
-export const HrLine = styled.hr`
-  margin-top: 60px;
-`;
+

@@ -24,7 +24,7 @@ export const NavLeft = styled.div`
   gap: 10px;
 `;
 
-export const LeftBurgerButton = styled.img`
+export const LeftBurgerButton = styled.div`
   display: none;
   @media only screen and (max-width: 1435px) {
     display: flex;
@@ -62,6 +62,9 @@ export const NavMidComp = styled.div`
     border-radius: 10px;
     background: rgba(0, 109, 171, 0.05);
   }
+  @media only screen and (max-width: 1435px) {
+    
+  }
 `;
 export const NavRight = styled.div`
   flex: 2;
@@ -84,7 +87,7 @@ export const NavRightEng = styled.div`
     display: none;
   }
 `;
-export const RightBurgerImg = styled.img`
+export const RightBurgerImg = styled.div`
   display: none;
   @media only screen and (max-width: 600px) {
     display: flex;

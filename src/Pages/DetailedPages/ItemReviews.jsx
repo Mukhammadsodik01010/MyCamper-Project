@@ -9,11 +9,12 @@ import {
   ChildDataWrapper,
   ChildImageWrapper,
   DataName,
-  HrLine,
   Id,
   IdDiv,
   IdP,
   IRchild,
+  ItemReviewScroll,
+  MainDiv,
   NameBrandDiv,
   NameBrandDiv2,
   Premium,
@@ -24,7 +25,7 @@ import {
 const ItemReviewsComponent = () => {
   const carsData = Mockdata;
   return (
-    <>
+    <MainDiv>
       <Premium>
         <Premiumh1>
           Premium Review <PremiumSpan>35</PremiumSpan>
@@ -38,7 +39,8 @@ const ItemReviewsComponent = () => {
           </BestWrap>
         </div>
       </Premium>
-      <div>
+      <hr />
+      <ItemReviewScroll>
         {carsData.map((car) => (
           <IRchild>
             <ChildImageWrapper>
@@ -69,9 +71,9 @@ const ItemReviewsComponent = () => {
             </ChildDataWrapper>
           </IRchild>
         ))}
-        <HrLine />
-      </div>
-    </>
+      </ItemReviewScroll>
+       <hr/>
+    </MainDiv>
   );
 };
 
