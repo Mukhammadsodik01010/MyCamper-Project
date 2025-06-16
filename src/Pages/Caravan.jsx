@@ -3,6 +3,7 @@ import Navbarcomponent from './Navbar'
 import SectionComponent from './Section'
 import FooterComponent from '../Footer'
 import { CaravanBgDiv, CaravanBgh1, CaravanBgh2, CaravanBgh3 } from '../Styles/Caravan'
+import CSectionComp from './CSection'
 
 const CaravanComponent = () => {
   return (
@@ -13,7 +14,7 @@ const CaravanComponent = () => {
         <CaravanBgh2>Our ranges</CaravanBgh2>
         <CaravanBgh1>Caravan</CaravanBgh1>
       </CaravanBgDiv>
-      <SectionComponent/>
+      <CSectionComp/>
       <FooterComponent/>
     </>
   )

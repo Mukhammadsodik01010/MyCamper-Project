@@ -3,6 +3,7 @@ import Navbarcomponent from './Navbar'
 import SectionComponent from './Section'
 import FooterComponent from '../Footer'
 import { TuningBgDiv, TuningBgh1, TuningBgh2, TuningBgh3 } from '../Styles/Tuning'
+import TSectionComp from './TSection'
 
 const TuningComponent = () => {
   return (
@@ -13,7 +14,7 @@ const TuningComponent = () => {
         <TuningBgh2>Our ranges</TuningBgh2>
         <TuningBgh1>Motors</TuningBgh1>
     </TuningBgDiv>
-    <SectionComponent/>
+    <TSectionComp/>
     <FooterComponent/>
     </>
   )

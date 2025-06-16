@@ -35,7 +35,7 @@ const FooterComponent = () => {
         <FooterP>021 Korea Seul, LA</FooterP>
         <FooterP>camper@example.com</FooterP>
         <FooterP>(021) 345-6789-99</FooterP>
-    </div>
+    </div>   
     </FooterMain>
   )
 }

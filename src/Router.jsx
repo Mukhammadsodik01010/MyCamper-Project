@@ -7,6 +7,8 @@ import UsedCarComponent from "./Pages/UsedCar"
 import CampingPlaceComponent from "./Pages/CampingPlace"
 import DetailedPage from "./Pages/DetailedPages/DetailedPage"
 import AccordionExpandIcon from "./Pages/acardion"
+import SignInComp from "./Pages/signIn"
+import RegisterComp from "./Pages/register"
 
 
 function Router() {
@@ -23,6 +25,8 @@ function Router() {
       <Route path="/campingplace" element={<CampingPlaceComponent/>}/>
       <Route path="/motor/:id" element={<DetailedPage/>}/>
       <Route path="/acardion" element={<AccordionExpandIcon/>}/>
+      <Route path="/signin" element={<SignInComp/>}/>
+      <Route path="/register" element={<RegisterComp/>}/>
      </Routes>
     </BrowserRouter>
   )

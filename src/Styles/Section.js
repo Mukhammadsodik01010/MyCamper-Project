@@ -354,13 +354,18 @@ padding: 15px;
 /* background-color: red; */
 `
 export const ChildBgImg = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
 width: 250pxpx;
 height: 137.433px;
 flex-shrink: 0;
-background-image: url("${BgChildImg}");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+`
+export const ChildBgImgImg = styled.img`
+height: 90%;
+width: 90%;
+border: none;
+border-radius: 5px;
 `
 export const CarName = styled.h1`
 color: var(--text, #373737);

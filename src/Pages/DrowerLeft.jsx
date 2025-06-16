@@ -6,7 +6,6 @@ import BurgerImg from "../assets/burgerButton.svg";
 import { Link } from "react-router-dom";
 import { DrowerLinkWrapper, DrowerMain } from "../Styles/Drower";
 
-
 const TemporaryDrawer = () => {
   const [open, setOpen] = React.useState(false);
 
@@ -18,34 +17,54 @@ const TemporaryDrawer = () => {
     <Box sx={{ width: 300 }} role="presentation">
       <DrowerMain>
         <DrowerLinkWrapper>
-            <Link className="NavLink" to={"/motor"}>
-                <p>Motor</p>
-            </Link>
-            <img src={RightArrow} alt="" />
+          <Link className="NavLink" to={"/motor"}>
+            <p>Motor</p>
+          </Link>
+          <img src={RightArrow} alt="" />
         </DrowerLinkWrapper>
         <DrowerLinkWrapper>
-            <Link className="NavLink" to={"/caravan"}>
-                <p>Caravan</p>
-            </Link>
-            <img src={RightArrow} alt="" />
+          <Link className="NavLink" to={"/caravan"}>
+            <p>Caravan</p>
+          </Link>
+          <img src={RightArrow} alt="" />
         </DrowerLinkWrapper>
         <DrowerLinkWrapper>
-            <Link className="NavLink" to={"/tuning"}>
-                <p>Tuning</p>
-            </Link>
-            <img src={RightArrow} alt="" />
+          <Link className="NavLink" to={"/tuning"}>
+            <p>Tuning</p>
+          </Link>
+          <img src={RightArrow} alt="" />
         </DrowerLinkWrapper>
         <DrowerLinkWrapper>
-            <Link className="NavLink" to={"/usedcar"}>
-                <p>Used Car</p>
-            </Link>
-            <img src={RightArrow} alt="" />
+          <Link className="NavLink" to={"/usedcar"}>
+            <p>Used Car</p>
+          </Link>
+          <img src={RightArrow} alt="" />
         </DrowerLinkWrapper>
-        <DrowerLinkWrapper>
-            <Link className="NavLink" to={"/campingplace"}>
-                <p>Camping Place</p>
-            </Link>
-        </DrowerLinkWrapper>
+        <Link className="NavLink" to={"/campingplace"}>
+          <DrowerLinkWrapper>
+            <p>Camping Place</p>
+          </DrowerLinkWrapper>
+        </Link>
+        <Link className="NavLink" to={"/signin"}>
+          <DrowerLinkWrapper>
+            <p>Sign in</p>
+          </DrowerLinkWrapper>
+        </Link>
+        <Link className="NavLink">
+          <DrowerLinkWrapper>
+            <p>My orders</p>
+          </DrowerLinkWrapper>
+        </Link>
+        <Link className="NavLink">
+          <DrowerLinkWrapper>
+            <p>Log out</p>
+          </DrowerLinkWrapper>
+        </Link>
+        <Link className="NavLink">
+          <DrowerLinkWrapper>
+            <p>Settings</p>
+          </DrowerLinkWrapper>
+        </Link>
       </DrowerMain>
     </Box>
   );

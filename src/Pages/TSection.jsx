@@ -46,13 +46,13 @@ import {
   TopSpan,
 } from "../Styles/Section";
 
-import { Mockdata } from "../MockData/mockdata";
+import { TuningData } from "../MockData/TuningMockData";
 import { Link } from "react-router-dom";
 import AccordionExpandIcon from "./acardion";
 import SectionDrower from "./SectionDrower";
 
-const SectionComponent = () => {
-  const products = Mockdata;
+const TSectionComp = () => {
+  const products = TuningData;
 
   return (
     <SectionMain>
@@ -177,4 +177,4 @@ const SectionComponent = () => {
   );
 };
 
-export default SectionComponent;
+export default TSectionComp;

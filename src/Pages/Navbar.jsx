@@ -17,6 +17,7 @@ import {
 import { Link } from "react-router-dom";
 import TemporaryDrawer from "./DrowerLeft";
 import TemporaryDrawerRight from "./DrowerRight";
+import DashboardComp from "./dashboard";
 
 
 const Navbarcomponent = () => {
@@ -64,7 +65,7 @@ const Navbarcomponent = () => {
         </NavMid>
         <NavRight>
           <img src={CartImg} alt="" />
-          <HiddenImg src={UserImg} alt="" />
+          <DashboardComp/>
           <NavRightEng>
             <p>Eng</p>
             <img src={DownArrow} alt="" />

@@ -46,13 +46,13 @@ import {
   TopSpan,
 } from "../Styles/Section";
 
-import { Mockdata } from "../MockData/mockdata";
+import { CaravanData } from "../MockData/caravanMockData";
 import { Link } from "react-router-dom";
 import AccordionExpandIcon from "./acardion";
 import SectionDrower from "./SectionDrower";
 
-const SectionComponent = () => {
-  const products = Mockdata;
+const CSectionComp = () => {
+  const products = CaravanData;
 
   return (
     <SectionMain>
@@ -72,7 +72,7 @@ const SectionComponent = () => {
           </FromToMain>
         </div>
         <AcardionDiv>
-          <AccordionExpandIcon/>
+          <AccordionExpandIcon />
         </AcardionDiv>
         <FromToMain>
           <SectionLeftBtn>Cancel</SectionLeftBtn>
@@ -95,7 +95,7 @@ const SectionComponent = () => {
         <SectionRightTop>
           <SectionRightTopRightDiv>
             <SectionTopRigthBtn>
-              <SectionDrower/>
+              <SectionDrower />
             </SectionTopRigthBtn>
             <Toph4>
               Item <TopSpan>25.156</TopSpan>
@@ -148,8 +148,12 @@ const SectionComponent = () => {
         <hr />
         <SectionRightBottom>
           {products.map((product) => (
-            <Link className="NavLink" key={product.id} to={`/motor/${product.id}`}>
-              <SectionBottomChild >
+            <Link
+              className="NavLink"
+              key={product.id}
+              to={`/motor/${product.id}`}
+            >
+              <SectionBottomChild>
                 <ChildBgImg>
                   <ChildBgImgImg src={product.image} alt="" />
                 </ChildBgImg>
@@ -177,4 +181,4 @@ const SectionComponent = () => {
   );
 };
 
-export default SectionComponent;
+export default CSectionComp;

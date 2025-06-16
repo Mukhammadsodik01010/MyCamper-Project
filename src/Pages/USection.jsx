@@ -46,13 +46,13 @@ import {
   TopSpan,
 } from "../Styles/Section";
 
-import { Mockdata } from "../MockData/mockdata";
+import { UsedCarData } from "../MockData/mockDataUsedCar";
 import { Link } from "react-router-dom";
 import AccordionExpandIcon from "./acardion";
 import SectionDrower from "./SectionDrower";
 
-const SectionComponent = () => {
-  const products = Mockdata;
+const USectionComp = () => {
+  const products = UsedCarData;
 
   return (
     <SectionMain>
@@ -177,4 +177,4 @@ const SectionComponent = () => {
   );
 };
 
-export default SectionComponent;
+export default USectionComp;
