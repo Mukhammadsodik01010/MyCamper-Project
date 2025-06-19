@@ -23,7 +23,7 @@ const ContactComponent = () => {
     <QuestionsMainDiv>
       <QuestionsDiv>
         <QuestionsChild>
-          <ContactImg src={MapImg} alt="" />
+          <ContactImg src={MapImg} alt="Map Image" />
           <ContactMiniCHild>
             <ContactMiniCHildLeft>
               <QuestionsChildName>Phone number:</QuestionsChildName>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from "primereact/carousel";
 import { Tag } from "primereact/tag";
 import { ProductService } from "./service/ProductService";
-import ArrowDown from "../assets/down-arrow.svg"
+import ArrowDown from "../assets/down-arrow.svg";
 import {
   MultiArrowDiv,
   MultiAsosiyDiv,
@@ -75,25 +75,25 @@ const MultiCaruselComponent = () => {
 
   const productTemplate = (product) => {
     return (
-     <MultiAsosiyDiv>
-       <MultiMainDiv>
-        <MultiImgMainDiv className="mb-3">
-          <MultiImg src={`${product.image}`} alt={product.name} />
-        </MultiImgMainDiv>
-        <ProductNameDiv>
-          <h4>{product.name}</h4>
-          <MultiButton>Discover the range</MultiButton>
-          <Tag
-            value={product.inventoryStatus}
-            severity={getSeverity(product)}
-          ></Tag>
-          <MultiArrowDiv>
-            <p>Choose a model</p>
-            <img src={ArrowDown} alt="" />
-          </MultiArrowDiv>
-        </ProductNameDiv>
-      </MultiMainDiv>
-     </MultiAsosiyDiv>
+      <MultiAsosiyDiv>
+        <MultiMainDiv>
+          <MultiImgMainDiv className="mb-3">
+            <MultiImg src={`${product.image}`} alt={product.name} />
+          </MultiImgMainDiv>
+          <ProductNameDiv>
+            <h4>{product.name}</h4>
+            <MultiButton>Discover the range</MultiButton>
+            <Tag
+              value={product.inventoryStatus}
+              severity={getSeverity(product)}
+            ></Tag>
+            <MultiArrowDiv>
+              <p>Choose a model</p>
+              <img src={ArrowDown} alt="Arrow" />
+            </MultiArrowDiv>
+          </ProductNameDiv>
+        </MultiMainDiv>
+      </MultiAsosiyDiv>
     );
   };
 

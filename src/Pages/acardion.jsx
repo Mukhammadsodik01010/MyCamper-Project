@@ -1,9 +1,9 @@
-import * as React from 'react';
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import * as React from "react";
+import Accordion from "@mui/material/Accordion";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import {
   InputCheckbox,
   SectionLedtINput,
@@ -24,19 +24,19 @@ const AccordionExpandIcon = () => {
         <AccordionDetails>
           <Typography>
             <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Aidal</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Knal</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">escape</label>
-            </SectionLedtINput>
-          </InputCheckbox>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Aidal</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Knal</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">escape</label>
+              </SectionLedtINput>
+            </InputCheckbox>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -51,15 +51,15 @@ const AccordionExpandIcon = () => {
         <AccordionDetails>
           <Typography>
             <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">escape</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Aidal</label>
-            </SectionLedtINput>
-          </InputCheckbox>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">escape</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Aidal</label>
+              </SectionLedtINput>
+            </InputCheckbox>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -74,19 +74,19 @@ const AccordionExpandIcon = () => {
         <AccordionDetails>
           <Typography>
             <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">1 year</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">2 year</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">1.5 year</label>
-            </SectionLedtINput>
-          </InputCheckbox>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">1 year</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">2 year</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">1.5 year</label>
+              </SectionLedtINput>
+            </InputCheckbox>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -101,19 +101,19 @@ const AccordionExpandIcon = () => {
         <AccordionDetails>
           <Typography>
             <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">2</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">3-4</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">5+</label>
-            </SectionLedtINput>
-          </InputCheckbox>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">2</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">3-4</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">5+</label>
+              </SectionLedtINput>
+            </InputCheckbox>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -128,23 +128,23 @@ const AccordionExpandIcon = () => {
         <AccordionDetails>
           <Typography>
             <InputCheckbox>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Seoul</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Korea</label>
-            </SectionLedtINput>
-            <SectionLedtINput>
-              <SectionLeftChildInput type="checkbox" />
-              <label htmlFor="">Pusan</label>
-            </SectionLedtINput>
-          </InputCheckbox>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Seoul</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Korea</label>
+              </SectionLedtINput>
+              <SectionLedtINput>
+                <SectionLeftChildInput type="checkbox" />
+                <label htmlFor="">Pusan</label>
+              </SectionLedtINput>
+            </InputCheckbox>
           </Typography>
         </AccordionDetails>
       </Accordion>
     </div>
   );
-}
+};
 export default AccordionExpandIcon;

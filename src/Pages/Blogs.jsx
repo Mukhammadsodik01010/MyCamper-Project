@@ -28,12 +28,12 @@ const BlogsComponent = () => {
           </BlogP>
         </BlogLeft>
         <BlogRight>
-            <RectangelImg src={Rectangle1} alt="" />
-            <RectangelImg src={Rectangle2} alt="" />
-            <RectangelImg src={Rectangle3} alt="" />
-            <RectangelImgSecondLine src={Rectangle1} alt="" />
-            <RectangelImgSecondLine src={Rectangle2} alt="" />
-            <RectangelImgSecondLine src={Rectangle3} alt="" />
+            <RectangelImg src={Rectangle1} alt="Image" />
+            <RectangelImg src={Rectangle2} alt="Image" />
+            <RectangelImg src={Rectangle3} alt="Image" />
+            <RectangelImgSecondLine src={Rectangle1} alt="Image" />
+            <RectangelImgSecondLine src={Rectangle2} alt="Image" />
+            <RectangelImgSecondLine src={Rectangle3} alt="Image" />
         </BlogRight>
       </BlogMain>
     </>

@@ -27,45 +27,44 @@ const SectionDrower = () => {
   };
 
   const DrawerList = (
-  <Box sx={{ width: 300 }} role="presentation">
-    <SectionDrowerDiv>
-      <div>
-        <SectionLeftChildh2>Cost of car</SectionLeftChildh2>
-        <hr />
+    <Box sx={{ width: 300 }} role="presentation">
+      <SectionDrowerDiv>
+        <div>
+          <SectionLeftChildh2>Cost of car</SectionLeftChildh2>
+          <hr />
+          <FromToMain>
+            <div>
+              <p>from</p>
+              <FromToInput type="text" />
+            </div>
+            <div>
+              <p>to</p>
+              <FromToInput type="text" />
+            </div>
+          </FromToMain>
+        </div>
+        <AcardionDiv>
+          <AccordionExpandIcon />
+        </AcardionDiv>
         <FromToMain>
-          <div>
-            <p>from</p>
-            <FromToInput type="text" />
-          </div>
-          <div>
-            <p>to</p>
-            <FromToInput type="text" />
-          </div>
+          <SectionLeftBtn>Cancel</SectionLeftBtn>
+          <SectionLeftBtn $second>Search</SectionLeftBtn>
         </FromToMain>
-      </div>
-      <AcardionDiv>
-        <AccordionExpandIcon />
-      </AcardionDiv>
-      <FromToMain>
-        <SectionLeftBtn>Cancel</SectionLeftBtn>
-        <SectionLeftBtn $second>Search</SectionLeftBtn>
-      </FromToMain>
-      <CompareP>Compare</CompareP>
-      <CompareImgWrapper>
-        <CompareImgDiv>
-          <ComopareImg src={Compare1Img} alt="" />
-        </CompareImgDiv>
-        <CompareImgDiv>
-          <ComopareImg src={Compare2Img} alt="" />
-        </CompareImgDiv>
-        <CompareImgDiv>
-          <ComopareImg src={Compare3Img} alt="" />
-        </CompareImgDiv>
-      </CompareImgWrapper>
-    </SectionDrowerDiv>
-  </Box>
-);
-
+        <CompareP>Compare</CompareP>
+        <CompareImgWrapper>
+          <CompareImgDiv>
+            <ComopareImg src={Compare1Img} alt="Arrow" />
+          </CompareImgDiv>
+          <CompareImgDiv>
+            <ComopareImg src={Compare2Img} alt="Arrow" />
+          </CompareImgDiv>
+          <CompareImgDiv>
+            <ComopareImg src={Compare3Img} alt="Arrow" />
+          </CompareImgDiv>
+        </CompareImgWrapper>
+      </SectionDrowerDiv>
+    </Box>
+  );
 
   return (
     <div>

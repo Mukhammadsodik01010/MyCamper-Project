@@ -34,7 +34,7 @@ const ItemReviewsComponent = () => {
           <BestWrap>
             <p>Best</p>
             <BestArrowWrap>
-              <img src={Arrow5} alt="" />
+              <img src={Arrow5} alt="Arrow" />
             </BestArrowWrap>
           </BestWrap>
         </div>
@@ -44,7 +44,7 @@ const ItemReviewsComponent = () => {
         {carsData.map((car) => (
           <IRchild>
             <ChildImageWrapper>
-              <ChildCarImg src={car.image} alt="" />
+              <ChildCarImg src={car.image} alt="Car IMage" />
             </ChildImageWrapper>
             <ChildDataWrapper>
               <DataName>

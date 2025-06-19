@@ -24,31 +24,31 @@ const FrequentQuestions = () => {
             <QuestionsChild>
               <FrequentChildDiv>
                 <QuestionsChildQ>Frequently asked questions </QuestionsChildQ>
-                <img src={DownArrow} alt="" />
+                <img src={DownArrow} alt="Arrow" />
               </FrequentChildDiv>
             </QuestionsChild>
             <QuestionsChild>
               <FrequentChildDiv>
                 <QuestionsChildQ>Frequently asked questions </QuestionsChildQ>
-                <img src={DownArrow} alt="" />
+                <img src={DownArrow} alt="Arrow" />
               </FrequentChildDiv>
             </QuestionsChild>
             <QuestionsChild>
               <FrequentChildDiv>
                 <QuestionsChildQ>Frequently asked questions </QuestionsChildQ>
-                <img src={DownArrow} alt="" />
+                <img src={DownArrow} alt="Arrow" />
               </FrequentChildDiv>
             </QuestionsChild>
             <QuestionsChild>
               <FrequentChildDiv>
                 <QuestionsChildQ>Frequently asked questions </QuestionsChildQ>
-                <img src={DownArrow} alt="" />
+                <img src={DownArrow} alt="Arrow" />
               </FrequentChildDiv>
             </QuestionsChild>
             <QuestionsChild>
               <FrequentChildDiv>
                 <QuestionsChildQ>Frequently asked questions </QuestionsChildQ>
-                <img src={DownArrow} alt="" />
+                <img src={DownArrow} alt="Arrow" />
               </FrequentChildDiv>
             </QuestionsChild>
           </QuestionsDiv>

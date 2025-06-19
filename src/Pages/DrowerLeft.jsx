@@ -71,7 +71,7 @@ const TemporaryDrawer = () => {
 
   return (
     <div>
-      <img src={BurgerImg} onClick={toggleDrawer(true)} />
+      <img src={BurgerImg} alt="Image" onClick={toggleDrawer(true)} />
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>

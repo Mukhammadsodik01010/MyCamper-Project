@@ -19,59 +19,58 @@ import TemporaryDrawer from "./DrowerLeft";
 import TemporaryDrawerRight from "./DrowerRight";
 import DashboardComp from "./dashboard";
 
-
 const Navbarcomponent = () => {
   return (
     <>
       <NavbarMain>
         <NavLeft>
           <LeftBurgerButton>
-            <TemporaryDrawer/>
+            <TemporaryDrawer />
           </LeftBurgerButton>
-          <Link className="NavLink" to={'/'}>
+          <Link className="NavLink" to={"/"}>
             <img src={LogoImg} alt="Logo" />
           </Link>
         </NavLeft>
         <NavMid>
           <NavMidComp>
-             <Link className="NavLink" to={'/motor'}>
-               <p>Motor</p>
-             </Link>
-              <img src={DownArrow} alt="" />
+            <Link className="NavLink" to={"/motor"}>
+              <p>Motor</p>
+            </Link>
+            <img src={DownArrow} alt="Arrow" />
           </NavMidComp>
           <NavMidComp>
-            <Link className="NavLink" to={'/caravan'}>
+            <Link className="NavLink" to={"/caravan"}>
               <p>Caravan</p>
             </Link>
-            <img src={DownArrow} alt="" />
+            <img src={DownArrow} alt="Arrow" />
           </NavMidComp>
           <NavMidComp>
-            <Link className="NavLink" to={'/tuning'}>
+            <Link className="NavLink" to={"/tuning"}>
               <p>Tuning</p>
             </Link>
-            <img src={DownArrow} alt="" />
+            <img src={DownArrow} alt="Arrow" />
           </NavMidComp>
           <NavMidComp>
-            <Link className="NavLink" to={'/usedcar'}>
+            <Link className="NavLink" to={"/usedcar"}>
               <p>Used Car</p>
             </Link>
-            <img src={DownArrow} alt="" />
+            <img src={DownArrow} alt="Arrow" />
           </NavMidComp>
           <NavMidComp>
-            <Link className="NavLink" to={'/campingplace'}>
+            <Link className="NavLink" to={"/campingplace"}>
               <p>Camping place</p>
             </Link>
           </NavMidComp>
         </NavMid>
         <NavRight>
-          <img src={CartImg} alt="" />
-          <DashboardComp/>
+          <img src={CartImg} alt="Arrow" />
+          <DashboardComp />
           <NavRightEng>
             <p>Eng</p>
-            <img src={DownArrow} alt="" />
+            <img src={DownArrow} alt="Arrow" />
           </NavRightEng>
           <RightBurgerImg>
-            <TemporaryDrawerRight/>
+            <TemporaryDrawerRight />
           </RightBurgerImg>
         </NavRight>
       </NavbarMain>
@@ -79,4 +78,3 @@ const Navbarcomponent = () => {
   );
 };
 export default Navbarcomponent;
-

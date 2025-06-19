@@ -3,7 +3,7 @@ import GoogleImg from "../assets/google.svg";
 import NeverImg from "../assets/never.svg";
 import KakaoImg from "../assets/kakao.svg";
 import {
-    AccountButton,
+  AccountButton,
   CheckboxInput,
   CheckboxMain,
   CheckboxMainChild,
@@ -45,17 +45,17 @@ const SignInComp = () => {
         </Ordiv>
         <ImagesMain>
           <ImageWrapper>
-            <img src={NeverImg} alt="" />
+            <img src={NeverImg} alt="Arrow" />
           </ImageWrapper>
           <ImageWrapper $google>
-            <img src={GoogleImg} alt="" />
+            <img src={GoogleImg} alt="Arrow" />
           </ImageWrapper>
           <ImageWrapper $kakao>
-            <img src={KakaoImg} alt="" />
+            <img src={KakaoImg} alt="Arrow" />
           </ImageWrapper>
         </ImagesMain>
         <Link to={"/register"}>
-            <AccountButton>CREATE ACCOUNT</AccountButton>
+          <AccountButton>CREATE ACCOUNT</AccountButton>
         </Link>
       </SignChild>
     </SignInMain>

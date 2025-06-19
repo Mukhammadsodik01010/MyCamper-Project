@@ -81,13 +81,13 @@ const CSectionComp = () => {
         <CompareP>Compare</CompareP>
         <CompareImgWrapper>
           <CompareImgDiv>
-            <ComopareImg src={Compare1Img} alt="" />
+            <ComopareImg src={Compare1Img} alt="Image" />
           </CompareImgDiv>
           <CompareImgDiv>
-            <ComopareImg src={Compare2Img} alt="" />
+            <ComopareImg src={Compare2Img} alt="Image" />
           </CompareImgDiv>
           <CompareImgDiv>
-            <ComopareImg src={Compare3Img} alt="" />
+            <ComopareImg src={Compare3Img} alt="Image" />
           </CompareImgDiv>
         </CompareImgWrapper>
       </SectionLeft>
@@ -108,22 +108,22 @@ const CSectionComp = () => {
               <SelectDiv>
                 <p>Select</p>
                 <DownArrowDiv>
-                  <img src={ArrowDown} alt="" />
+                  <img src={ArrowDown} alt="Image" />
                 </DownArrowDiv>
               </SelectDiv>
             </SortByDiv>
             <SixtyDiv>
               <p>60</p>
               <DownArrowDiv>
-                <img src={ArrowDown} alt="" />
+                <img src={ArrowDown} alt="Image" />
               </DownArrowDiv>
             </SixtyDiv>
             <MenuDiv>
               <Menu1Div>
-                <img src={Menu1} alt="" />
+                <img src={Menu1} alt="Image" />
               </Menu1Div>
               <Menu2Div>
-                <img src={Menu2} alt="" />
+                <img src={Menu2} alt="Image" />
               </Menu2Div>
             </MenuDiv>
           </TopRightMain>
@@ -134,14 +134,14 @@ const CSectionComp = () => {
             <SelectDiv>
               <p>Select</p>
               <DownArrowDiv>
-                <img src={ArrowDown} alt="" />
+                <img src={ArrowDown} alt="Image" />
               </DownArrowDiv>
             </SelectDiv>
           </SortByDivHidden>
           <SixtyDivHidden>
             <p>60</p>
             <DownArrowDiv>
-              <img src={ArrowDown} alt="" />
+              <img src={ArrowDown} alt="Image" />
             </DownArrowDiv>
           </SixtyDivHidden>
         </SectionTopHiddenDiv>
@@ -155,14 +155,14 @@ const CSectionComp = () => {
             >
               <SectionBottomChild>
                 <ChildBgImg>
-                  <ChildBgImgImg src={product.image} alt="" />
+                  <ChildBgImgImg src={product.image} alt="Image" />
                 </ChildBgImg>
                 <div>
                   <CarName>{product.name}</CarName>
                   <BrandNameDiv>
                     <p>{product.brand}</p>
                     <CarNameDiv>
-                      <img src={Star} alt="" />
+                      <img src={Star} alt="Image" />
                       <p>{product.ranking}</p>
                     </CarNameDiv>
                   </BrandNameDiv>

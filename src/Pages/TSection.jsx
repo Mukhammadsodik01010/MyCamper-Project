@@ -72,7 +72,7 @@ const TSectionComp = () => {
           </FromToMain>
         </div>
         <AcardionDiv>
-          <AccordionExpandIcon/>
+          <AccordionExpandIcon />
         </AcardionDiv>
         <FromToMain>
           <SectionLeftBtn>Cancel</SectionLeftBtn>
@@ -81,13 +81,13 @@ const TSectionComp = () => {
         <CompareP>Compare</CompareP>
         <CompareImgWrapper>
           <CompareImgDiv>
-            <ComopareImg src={Compare1Img} alt="" />
+            <ComopareImg src={Compare1Img} alt="Arrow" />
           </CompareImgDiv>
           <CompareImgDiv>
-            <ComopareImg src={Compare2Img} alt="" />
+            <ComopareImg src={Compare2Img} alt="Arrow" />
           </CompareImgDiv>
           <CompareImgDiv>
-            <ComopareImg src={Compare3Img} alt="" />
+            <ComopareImg src={Compare3Img} alt="Arrow" />
           </CompareImgDiv>
         </CompareImgWrapper>
       </SectionLeft>
@@ -95,7 +95,7 @@ const TSectionComp = () => {
         <SectionRightTop>
           <SectionRightTopRightDiv>
             <SectionTopRigthBtn>
-              <SectionDrower/>
+              <SectionDrower />
             </SectionTopRigthBtn>
             <Toph4>
               Item <TopSpan>25.156</TopSpan>
@@ -108,22 +108,22 @@ const TSectionComp = () => {
               <SelectDiv>
                 <p>Select</p>
                 <DownArrowDiv>
-                  <img src={ArrowDown} alt="" />
+                  <img src={ArrowDown} alt="Arrow" />
                 </DownArrowDiv>
               </SelectDiv>
             </SortByDiv>
             <SixtyDiv>
               <p>60</p>
               <DownArrowDiv>
-                <img src={ArrowDown} alt="" />
+                <img src={ArrowDown} alt="Arrow" />
               </DownArrowDiv>
             </SixtyDiv>
             <MenuDiv>
               <Menu1Div>
-                <img src={Menu1} alt="" />
+                <img src={Menu1} alt="Arrow" />
               </Menu1Div>
               <Menu2Div>
-                <img src={Menu2} alt="" />
+                <img src={Menu2} alt="Arrow" />
               </Menu2Div>
             </MenuDiv>
           </TopRightMain>
@@ -134,31 +134,35 @@ const TSectionComp = () => {
             <SelectDiv>
               <p>Select</p>
               <DownArrowDiv>
-                <img src={ArrowDown} alt="" />
+                <img src={ArrowDown} alt="Arrow" />
               </DownArrowDiv>
             </SelectDiv>
           </SortByDivHidden>
           <SixtyDivHidden>
             <p>60</p>
             <DownArrowDiv>
-              <img src={ArrowDown} alt="" />
+              <img src={ArrowDown} alt="Arrow" />
             </DownArrowDiv>
           </SixtyDivHidden>
         </SectionTopHiddenDiv>
         <hr />
         <SectionRightBottom>
           {products.map((product) => (
-            <Link className="NavLink" key={product.id} to={`/motor/${product.id}`}>
-              <SectionBottomChild >
+            <Link
+              className="NavLink"
+              key={product.id}
+              to={`/motor/${product.id}`}
+            >
+              <SectionBottomChild>
                 <ChildBgImg>
-                  <ChildBgImgImg src={product.image} alt="" />
+                  <ChildBgImgImg src={product.image} alt="Arrow" />
                 </ChildBgImg>
                 <div>
                   <CarName>{product.name}</CarName>
                   <BrandNameDiv>
                     <p>{product.brand}</p>
                     <CarNameDiv>
-                      <img src={Star} alt="" />
+                      <img src={Star} alt="star" />
                       <p>{product.ranking}</p>
                     </CarNameDiv>
                   </BrandNameDiv>
