@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import TuningCaravan from '../assets/TuningCaravan.jpeg'
+import TuningCaravan from '../assets/tuningBg.jpg'
 
 export const TuningBgDiv = styled.div`
 width: 100%;

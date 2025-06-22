@@ -8,6 +8,7 @@ import {
   RecommendH1,
 } from "../Styles/MultiCarousel";
 import { BlogH1, BlogH5, BlogLeft, BlogMain, BlogP, BlogRight, RectangelImg, RectangelImgSecondLine } from "../Styles/Blogs";
+import { CardActionArea } from "@mui/material";
 
 const BlogsComponent = () => {
   return (

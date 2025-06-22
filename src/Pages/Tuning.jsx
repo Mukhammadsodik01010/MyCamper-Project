@@ -16,7 +16,7 @@ const TuningComponent = () => {
       <TuningBgDiv>
         <TuningBgh3>Home / Tuning</TuningBgh3>
         <TuningBgh2>Our ranges</TuningBgh2>
-        <TuningBgh1>Motors</TuningBgh1>
+        <TuningBgh1>Tuning</TuningBgh1>
       </TuningBgDiv>
       <TSectionComp />
       <FooterComponent />

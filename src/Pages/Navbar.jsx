@@ -2,9 +2,7 @@ import React from "react";
 import LogoImg from "../assets/Camper.svg";
 import DownArrow from "../assets/down-arrow.svg";
 import CartImg from "../assets/cart.svg";
-import UserImg from "../assets/user.svg";
 import {
-  HiddenImg,
   LeftBurgerButton,
   NavbarMain,
   NavLeft,

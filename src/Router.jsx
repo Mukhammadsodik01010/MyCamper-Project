@@ -9,6 +9,7 @@ import DetailedPage from "./Pages/DetailedPages/DetailedPage";
 import AccordionExpandIcon from "./Pages/acardion";
 import SignInComp from "./Pages/signIn";
 import RegisterComp from "./Pages/register";
+import CampingDetailedPage from "./Pages/CampingDetailedPage";
 
 function Router() {
   return (
@@ -24,6 +25,7 @@ function Router() {
         <Route path="/acardion" element={<AccordionExpandIcon />} />
         <Route path="/signin" element={<SignInComp />} />
         <Route path="/register" element={<RegisterComp />} />
+        <Route path="campingplace/:id" element={<CampingDetailedPage/>} />
       </Routes>
     </BrowserRouter>
   );

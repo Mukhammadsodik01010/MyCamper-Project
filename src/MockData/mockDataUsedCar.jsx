@@ -28,6 +28,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Seoul",
     image: CarUsed1,
+    type: "Used Cars",
   },
   {
     id: "5001",
@@ -41,6 +42,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Busan",
      image: CarUsed2,
+     type: "Used Cars",
   },
   {
     id: "5002",
@@ -54,6 +56,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Incheon",
      image: CarUsed3,
+     type: "Used Cars",
   },
   {
     id: "5003",
@@ -67,6 +70,7 @@ export const UsedCarData = [
     driverLicenseType: "C",
     location: "Daegu",
      image: CarUsed4,
+     type: "Used Cars",
   },
   {
     id: "5004",
@@ -80,12 +84,14 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Daejeon",
      image: CarUsed5,
+     type: "Used Cars",
   },
   {
     id: "5005",
     code: "used105xa6",
     name: "Road King Legacy",
     brand: "Chevrolet",
+    type: "Used Cars",
     cost: 130,
     year: 2017,
     ranking: 4.5,
@@ -106,6 +112,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Ulsan",
      image: CarUsed7,
+     type: "Used Cars",
   },
   {
     id: "5007",
@@ -119,6 +126,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Gimhae",
      image: CarUsed8,
+     type: "Used Cars",
   },
   {
     id: "5008",
@@ -132,6 +140,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Jeju",
      image: CarUsed9,
+     type: "Used Cars",
   },
   {
     id: "5009",
@@ -145,6 +154,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Suwon",
      image: CarUsed10,
+     type: "Used Cars",
   },
   {
     id: "5010",
@@ -158,6 +168,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Goyang",
      image: CarUsed11,
+     type: "Used Cars",
   },
   {
     id: "5011",
@@ -171,6 +182,7 @@ export const UsedCarData = [
     driverLicenseType: "C",
     location: "Jinju",
      image: CarUsed12,
+     type: "Used Cars",
   },
   {
     id: "5012",
@@ -184,6 +196,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Asan",
      image: CarUsed13,
+     type: "Used Cars",
   },
   {
     id: "5013",
@@ -197,6 +210,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Guri",
      image: CarUsed14,
+     type: "Used Cars",
   },
   {
     id: "5014",
@@ -210,6 +224,7 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Andong",
      image: CarUsed15,
+     type: "Used Cars",
   },
   {
     id: "5015",
@@ -223,5 +238,6 @@ export const UsedCarData = [
     driverLicenseType: "B",
     location: "Gunsan",
      image: CarUsed10,
+     type: "Used Cars",
   },
 ];

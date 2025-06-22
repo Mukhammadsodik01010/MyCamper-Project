@@ -24,6 +24,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Seoul",
       image: Car1Img,
+      type: "Motor",
     },
     {
       id: "1001",
@@ -37,6 +38,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Busan",
       image: Car6Img,
+      type: "Motor",
     },
     {
       id: "1002",
@@ -50,6 +52,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Incheon",
       image: Car2Img,
+      type: "Motor",
     },
     {
       id: "1003",
@@ -63,6 +66,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Daegu",
       image: Car3Img,
+      type: "Motor",
     },
     {
       id: "1004",
@@ -76,6 +80,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Daejeon",
       image: Car4Img,
+      type: "Motor",
     },
     {
       id: "1005",
@@ -89,6 +94,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Ulsan",
       image: Car5Img,
+      type: "Motor",
     },
     {
       id: "1006",
@@ -102,6 +108,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Jeonju",
       image: Car6Img,
+      type: "Motor",
     },
     {
       id: "1007",
@@ -115,6 +122,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Gwangju",
       image: Car7Img,
+      type: "Motor",
     },
     {
       id: "1008",
@@ -128,6 +136,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Suwon",
       image: Car8Img,
+      type: "Motor",
     },
     {
       id: "1009",
@@ -141,6 +150,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Gimhae",
       image: Car9Img,
+      type: "Motor",
     },
     {
       id: "1010",
@@ -154,6 +164,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Chuncheon",
       image: Car10Img,
+      type: "Motor",
     },
     {
       id: "1011",
@@ -167,6 +178,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Pohang",
       image: Car11Img,
+      type: "Motor",
     },
     {
       id: "1012",
@@ -180,6 +192,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Andong",
       image: Car1Img,
+      type: "Motor",
     },
     {
       id: "1013",
@@ -193,6 +206,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Geoje",
       image: Car2Img,
+      type: "Motor",
     },
     {
       id: "1014",
@@ -206,6 +220,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Gwangyang",
       image: Car3Img,
+      type: "Motor",
     },
     {
       id: "1015",
@@ -219,6 +234,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Yeosu",
       image: Car4Img,
+      type: "Motor",
     },
     {
       id: "1016",
@@ -232,6 +248,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Gangneung",
       image: Car5Img,
+      type: "Motor",
     },
     {
       id: "1017",
@@ -245,6 +262,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Cheongju",
       image: Car6Img,
+      type: "Motor",
     },
     {
       id: "1018",
@@ -258,6 +276,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Sejong",
       image: Car7Img,
+      type: "Motor",
     },
     {
       id: "1019",
@@ -271,6 +290,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Uijeongbu",
       image: Car8Img,
+      type: "Motor",
     },
     {
       id: "1020",
@@ -284,6 +304,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Mokpo",
       image: Car9Img,
+      type: "Motor",
     },
     {
       id: "1021",
@@ -297,6 +318,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Anyang",
       image: Car10Img,
+      type: "Motor",
     },
     {
       id: "1022",
@@ -310,6 +332,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Goyang",
       image: Car11Img,
+      type: "Motor",
     },
     {
       id: "1023",
@@ -323,6 +346,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Jeju",
       image: Car1Img,
+      type: "Motor",
     },
     {
       id: "1024",
@@ -336,6 +360,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Gumi",
       image: Car2Img,
+      type: "Motor",
     },
     {
       id: "1025",
@@ -349,6 +374,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Seosan",
       image: Car3Img,
+      type: "Motor",
     },
     {
       id: "1026",
@@ -362,6 +388,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Suncheon",
       image: Car4Img,
+      type: "Motor",
     },
     {
       id: "1027",
@@ -375,6 +402,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "C",
       location: "Changwon",
       image: Car5Img,
+      type: "Motor",
     },
     {
       id: "1028",
@@ -388,6 +416,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Iksan",
       image: Car6Img,
+      type: "Motor",
     },
     {
       id: "1029",
@@ -400,6 +429,7 @@ import Car11Img from "../assets/CarImg11.svg";
       driverLicenseType: "B",
       location: "Paju",
       image: Car7Img,
+      type: "Motor",
     },
   ];
 

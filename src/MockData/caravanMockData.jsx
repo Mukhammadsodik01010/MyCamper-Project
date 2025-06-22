@@ -28,6 +28,7 @@ export const CaravanData  = [
     length: "30ft",
     location: "Seoul",
     image: Image1,
+    type: "Caravan",
   },
   {
     id: "2001",
@@ -41,6 +42,7 @@ export const CaravanData  = [
     length: "28ft",
     location: "Busan",
     image: Image2,
+    type: "Caravan",
   },
   {
     id: "2002",
@@ -54,6 +56,7 @@ export const CaravanData  = [
     length: "20ft",
     location: "Incheon",
     image: Image3,
+    type: "Caravan",
   },
   {
     id: "2003",
@@ -67,6 +70,7 @@ export const CaravanData  = [
     length: "22ft",
     location: "Daegu",
     image: Image4,
+    type: "Caravan",
   },
   {
     id: "2004",
@@ -80,6 +84,7 @@ export const CaravanData  = [
     length: "25ft",
     location: "Gwangju",
     image: Image5,
+    type: "Caravan",
   },
   {
     id: "2005",
@@ -93,6 +98,7 @@ export const CaravanData  = [
     length: "31ft",
     location: "Daejeon",
     image: Image6,
+    type: "Caravan",
   },
   {
     id: "2006",
@@ -106,6 +112,7 @@ export const CaravanData  = [
     length: "24ft",
     location: "Ulsan",
     image: Image7,
+    type: "Caravan",
   },
   {
     id: "2007",
@@ -119,6 +126,7 @@ export const CaravanData  = [
     length: "17ft",
     location: "Suwon",
     image: Image8,
+    type: "Caravan",
   },
   {
     id: "2008",
@@ -132,6 +140,7 @@ export const CaravanData  = [
     length: "23ft",
     location: "Jeju",
     image: Image9,
+    type: "Caravan",
   },
   {
     id: "2009",
@@ -145,6 +154,7 @@ export const CaravanData  = [
     length: "29ft",
     location: "Changwon",
     image: Image10,
+    type: "Caravan",
   },
   {
     id: "2010",
@@ -158,6 +168,7 @@ export const CaravanData  = [
     length: "19ft",
     location: "Goyang",
     image: Image11,
+    type: "Caravan",
   },
   {
     id: "2011",
@@ -171,6 +182,7 @@ export const CaravanData  = [
     length: "20ft",
     location: "Yongin",
     image: Image12,
+    type: "Caravan",
   },
   {
     id: "2012",
@@ -184,6 +196,7 @@ export const CaravanData  = [
     length: "25ft",
     location: "Gimpo",
     image: Image13,
+    type: "Caravan",
   },
   {
     id: "2013",
@@ -197,6 +210,7 @@ export const CaravanData  = [
     length: "27ft",
     location: "Pohang",
     image: Image14,
+    type: "Caravan",
   },
   {
     id: "2014",
@@ -210,6 +224,7 @@ export const CaravanData  = [
     length: "17ft",
     location: "Guri",
     image: Image15,
+    type: "Caravan",
   },
   {
     id: "2015",
@@ -223,6 +238,7 @@ export const CaravanData  = [
     length: "29ft",
     location: "Gunsan",
     image: Image1,
+    type: "Caravan",
   },
   {
     id: "2016",
@@ -236,6 +252,7 @@ export const CaravanData  = [
     length: "24ft",
     location: "Iksan",
     image: Image2,
+    type: "Caravan",
   },
   {
     id: "2017",
@@ -249,6 +266,7 @@ export const CaravanData  = [
     length: "29ft",
     location: "Yangsan",
     image: Image3,
+    type: "Caravan",
   },
   {
     id: "2018",
@@ -262,6 +280,7 @@ export const CaravanData  = [
     length: "18ft",
     location: "Asan",
     image: Image4,
+    type: "Caravan",
   },
   {
     id: "2019",
@@ -275,6 +294,7 @@ export const CaravanData  = [
     length: "23ft",
     location: "Cheonan",
     image: Image5,
+    type: "Caravan",
   },
   {
     id: "2020",
@@ -288,6 +308,7 @@ export const CaravanData  = [
     length: "26ft",
     location: "Mokpo",
     image: Image6,
+    type: "Caravan",
   },
   {
     id: "2021",
@@ -301,6 +322,7 @@ export const CaravanData  = [
     length: "18ft",
     location: "Yeosu",
     image: Image7,
+    type: "Caravan",
   },
   {
     id: "2022",
@@ -314,6 +336,7 @@ export const CaravanData  = [
     length: "23ft",
     location: "Jinju",
     image: Image8,
+    type: "Caravan",
   },
   {
     id: "2023",
@@ -327,6 +350,7 @@ export const CaravanData  = [
     length: "27ft",
     location: "Gimhae",
     image: Image9,
+    type: "Caravan",
   },
   {
     id: "2024",
@@ -340,6 +364,7 @@ export const CaravanData  = [
     length: "15ft",
     location: "Anseong",
     image: Image10,
+    type: "Caravan",
   },
   {
     id: "2025",
@@ -353,6 +378,7 @@ export const CaravanData  = [
     length: "18ft",
     location: "Gunsan",
     image: Image11,
+    type: "Caravan",
   },
   {
     id: "2026",
@@ -366,6 +392,7 @@ export const CaravanData  = [
     length: "23ft",
     location: "Suncheon",
     image: Image12,
+    type: "Caravan",
   },
   {
     id: "2027",
@@ -379,6 +406,7 @@ export const CaravanData  = [
     length: "29ft",
     location: "Icheon",
     image: Image13,
+    type: "Caravan",
   },
   {
     id: "2028",
@@ -392,6 +420,7 @@ export const CaravanData  = [
     length: "20ft",
     location: "Andong",
     image: Image4,
+    type: "Caravan",
   },
   {
     id: "2029",
@@ -405,5 +434,6 @@ export const CaravanData  = [
     length: "24ft",
     location: "Gyeongju",
     image: Image15,
+    type: "Caravan",
   },
 ];

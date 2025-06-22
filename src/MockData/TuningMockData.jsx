@@ -28,6 +28,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Seoul",
     image: Tuning1,
+    type: "Tuning",
   },
   {
     id: "4001",
@@ -41,6 +42,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Busan",
     image: Tuning2,
+    type: "Tuning",
   },
   {
     id: "4002",
@@ -54,6 +56,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Incheon",
     image: Tuning3,
+    type: "Tuning",
   },
   {
     id: "4003",
@@ -67,6 +70,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Daegu",
     image: Tuning4,
+    type: "Tuning",
   },
   {
     id: "4004",
@@ -80,6 +84,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Daejeon",
     image: Tuning5,
+    type: "Tuning",
   },
   {
     id: "4005",
@@ -93,6 +98,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gwangju",
     image: Tuning6,
+    type: "Tuning",
   },
   {
     id: "4006",
@@ -106,6 +112,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Ulsan",
     image: Tuning7,
+    type: "Tuning",
   },
   {
     id: "4007",
@@ -119,6 +126,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gimhae",
     image: Tuning8,
+    type: "Tuning",
   },
   {
     id: "4008",
@@ -132,6 +140,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Jeju",
     image: Tuning9,
+    type: "Tuning",
   },
   {
     id: "4009",
@@ -145,6 +154,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Suwon",
     image: Tuning10,
+    type: "Tuning",
   },
   {
     id: "4010",
@@ -158,6 +168,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Goyang",
     image: Tuning11,
+    type: "Tuning",
   },
   {
     id: "4011",
@@ -171,6 +182,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Jinju",
     image: Tuning12,
+    type: "Tuning",
   },
   {
     id: "4012",
@@ -184,6 +196,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Asan",
     image: Tuning13,
+    type: "Tuning",
   },
   {
     id: "4013",
@@ -197,6 +210,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Guri",
     image: Tuning14,
+    type: "Tuning",
   },
   {
     id: "4014",
@@ -210,6 +224,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Andong",
     image: Tuning15,
+    type: "Tuning",
   },
   {
     id: "4015",
@@ -223,6 +238,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gunsan",
     image: Tuning1,
+    type: "Tuning",
   },
   {
     id: "4016",
@@ -236,6 +252,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Suncheon",
     image: Tuning2,
+    type: "Tuning",
   },
   {
     id: "4017",
@@ -249,6 +266,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gyeongju",
     image: Tuning3,
+    type: "Tuning",
   },
   {
     id: "4018",
@@ -262,6 +280,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gimpo",
     image: Tuning4,
+    type: "Tuning",
   },
   {
     id: "4019",
@@ -275,6 +294,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gwangyang",
     image: Tuning5,
+    type: "Tuning",
   },
   {
     id: "4020",
@@ -288,6 +308,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Gimcheon",
     image: Tuning6,
+    type: "Tuning",
   },
   {
     id: "4021",
@@ -301,6 +322,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Mokpo",
     image: Tuning7,
+    type: "Tuning",
   },
   {
     id: "4022",
@@ -314,6 +336,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Yangsan",
     image: Tuning8,
+    type: "Tuning",
   },
   {
     id: "4023",
@@ -327,6 +350,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Namyangju",
     image: Tuning9,
+    type: "Tuning",
   },
   {
     id: "4024",
@@ -340,6 +364,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Pyeongtaek",
     image: Tuning10,
+    type: "Tuning",
   },
   {
     id: "4025",
@@ -353,6 +378,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Iksan",
     image: Tuning11,
+    type: "Tuning",
   },
   {
     id: "4026",
@@ -366,6 +392,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Jecheon",
     image: Tuning12,
+    type: "Tuning",
   },
   {
     id: "4027",
@@ -379,6 +406,7 @@ export const TuningData = [
     driverLicenseType: "C",
     location: "Wonju",
     image: Tuning13,
+    type: "Tuning",
   },
   {
     id: "4028",
@@ -392,6 +420,7 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Nonsan",
     image: Tuning14,
+    type: "Tuning",
   },
   {
     id: "4029",
@@ -405,5 +434,6 @@ export const TuningData = [
     driverLicenseType: "B",
     location: "Gunsan",
     image: Tuning15,
+    type: "Tuning",
   },
 ];

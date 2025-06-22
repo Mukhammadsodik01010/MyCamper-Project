@@ -80,6 +80,10 @@ export const IRchild = styled.div`
   gap: 50px;
   margin-top: 30px;
   padding-bottom: 10px;
+  padding-right: 50px;
+  &:hover{
+   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  }
   @media only screen and (max-width: 550px) {
     flex-direction: column;
     align-items: center;

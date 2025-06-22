@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import CaravanbgImage from '../assets/backgroundOne.svg'
+import CaravanbgImage from '../assets/images.jpeg'
 
 export const CaravanBgDiv = styled.div`
 width: 100%;
